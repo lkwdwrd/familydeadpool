@@ -1,0 +1,30 @@
+# This block ignores everything in wp-content, using negation patters to
+# include the hnf theme directory.
+wp-content/*
+!wp-content/object-cache.php
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/themes/deadpool
+!wp-content/plugins/
+wp-content/plugins/*
+!wp-content/plugins/lkwdwrd-extras
+
+# SSH Keys
+.deploy/deployer
+.deploy/deployer.pub
+
+# Ignore the dependency management directories
+vendor/
+node_modules/
+
+# Exclude the main WordPress directory
+wp/
+
+# Exclude the env file since this will vary on environment and not exist
+# in production.
+.env
+
+# Exclude dist directories
+dist
+
+.DS_Store
