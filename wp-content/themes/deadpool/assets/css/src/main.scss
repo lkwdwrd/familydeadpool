@@ -179,7 +179,7 @@ body {
 .section-box:nth-child(2n+4) .section-box-title {
 	@media screen and ( min-width: $med-bp ) {
 		right: auto;
-		left: 97%;
+		left: 96%;
 		padding-left: 0;
 		padding-right: 1.25em;
 
@@ -224,7 +224,7 @@ body {
 
 		.svg-bg {
 			left: auto;
-			right: 98%;
+			right: 96%;
 			transform: rotate( 180deg );
 		}
 	}
